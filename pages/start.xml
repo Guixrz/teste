@@ -1,4 +1,4 @@
-<page id="start" bg_image="arena_de_basquete.png" >
+<page id="start" bg_image="cemetery-noite-dark.png" >
   <agent
     id="teste"
     text="Hello World"
@@ -7,7 +7,13 @@
     y="center"
     font-size="70"
   />
-
+  <agent
+    id="botao"
+    text=""
+    y="center"
+    x="center"
+    on_click="goToPage('middle')"
+    />
   <agent
     id="next_page_text"
     text="Proxima Pagina"
