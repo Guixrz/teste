@@ -1,10 +1,12 @@
 <fable>
-  <config font-family="Schoolbell" />
+  <config font-family="Audiowide" />
+  <property name="pontos_azuis" default="0" />
+  <property name="pontos_vermelhos" default="0" />
+  <property name="vez" default="vermelho" />
 
-  <property name="pontuacao" default="0" />
-  <property name="visitante" default="Aventureiro" />
+  <page id="inicio">
+    <agent id="musica" x="0" y="0" on_click="playSound('music_basquete.mp3')" text="Clique para iniciar a música" />
+  </page>
 
-  <start />
-  <middle />
-  <ending />
+  <!-- Adicione mais páginas conforme necessário -->
 </fable>
