@@ -7,6 +7,9 @@
   <page id="inicio">
     <agent id="musica" x="0" y="0" on_click="playSound('music_basquete.mp3')" text="Clique para iniciar a música" />
   </page>
-
+  <start/>
+  <middle/>
+  <ending/>
+  <result/>
   <!-- Adicione mais páginas conforme necessário -->
 </fable>
